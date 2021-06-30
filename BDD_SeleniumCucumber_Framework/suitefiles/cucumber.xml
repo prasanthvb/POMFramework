@@ -10,14 +10,14 @@
 <!-- Test Started... -->
   <test name="Automation Test Report">
     <classes>
-       <class name="com.zifautomation.TestRunner.TestRunner"/> 
+       <class name="com.automation.TestRunner.TestRunner"/> 
      
     </classes>
   </test> 
    
    <!-- Listeners implemented in below location -->
   <listeners>
-  		<listener class-name="com.zifautomation.Listeners.ITestListenerImpl"></listener>
+  		<listener class-name="com.automation.Listeners.ITestListenerImpl"></listener>
   </listeners>
   
 </suite> <!-- Suite -->
